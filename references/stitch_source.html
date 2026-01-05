@@ -1,0 +1,834 @@
+<!-- Hero Section: Solusi E-Bike Terbaik -->
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>BKTeBike - Solusi E-Bike Terbaik</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Theme Configuration -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00b2d6",
+                        "background-light": "#f5f8f8",
+                        "background-dark": "#0f2023",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display antialiased">
+    <div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+        <!-- Top Navigation -->
+        <header
+            class="sticky top-0 z-50 w-full bg-white/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-[#f0f4f5] dark:border-white/10">
+            <div class="flex items-center justify-between px-6 py-4 lg:px-20 max-w-[1440px] mx-auto">
+                <!-- Logo -->
+                <div class="flex items-center gap-3">
+                    <div class="flex items-center justify-center size-10 rounded-xl bg-primary/10 text-primary">
+                        <span class="material-symbols-outlined text-2xl">electric_bike</span>
+                    </div>
+                    <h2 class="text-[#101718] dark:text-white text-xl font-extrabold tracking-tight">BKTeBike</h2>
+                </div>
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden md:flex items-center gap-8">
+                    <a class="text-[#101718] dark:text-gray-200 text-sm font-semibold hover:text-[#00b4d8] transition-colors"
+                        href="#">Beranda</a>
+                    <a class="text-[#101718] dark:text-gray-200 text-sm font-semibold hover:text-[#00b4d8] transition-colors"
+                        href="#">Layanan</a>
+                    <a class="text-[#101718] dark:text-gray-200 text-sm font-semibold hover:text-[#00b4d8] transition-colors"
+                        href="#">Tips</a>
+                    <a class="text-[#101718] dark:text-gray-200 text-sm font-semibold hover:text-[#00b4d8] transition-colors"
+                        href="#">Kontak</a>
+                </nav>
+                <!-- Mobile Menu Icon (Visual Only for this demo) -->
+                <button class="md:hidden text-[#101718] dark:text-white">
+                    <span class="material-symbols-outlined">menu</span>
+                </button>
+            </div>
+        </header>
+        <!-- Hero Section -->
+        <main class="flex-1 flex items-center justify-center">
+            <div class="w-full max-w-[1440px] px-6 lg:px-20 py-12 lg:py-20">
+                <div class="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-24">
+                    <!-- Text Content -->
+                    <div class="flex flex-col gap-8 flex-1 text-center lg:text-left">
+                        <div class="flex flex-col gap-4">
+                            <!-- Badge for minimal aesthetic -->
+                            <div class="hidden lg:flex items-center gap-2 w-fit bg-[#00b4d8]/10 px-3 py-1 rounded-full">
+                                <span class="material-symbols-outlined text-[#00b4d8] text-sm">verified</span>
+                                <span class="text-[#00b4d8] text-xs font-bold uppercase tracking-wider">Spesialis Servis
+                                    #1</span>
+                            </div>
+                            <h1
+                                class="text-[#00b4d8] text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight">
+                                Solusi Terbaik untuk Sepeda Listrik Anda
+                            </h1>
+                            <p
+                                class="text-[#101718]/70 dark:text-gray-300 text-lg lg:text-xl font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                                Layanan perbaikan profesional untuk mengembalikan performa e-bike kesayangan Anda.
+                                Cepat, terpercaya, dan bergaransi.
+                            </p>
+                        </div>
+                        <div class="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
+                            <!-- CTA Button: Red #ef233c -->
+                            <button
+                                class="flex items-center justify-center gap-3 h-14 px-8 rounded-lg bg-[#ef233c] hover:bg-[#d90429] text-white transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5 group w-full sm:w-auto">
+                                <span class="material-symbols-outlined">chat</span>
+                                <span class="text-base font-bold">Hubungi Kami via WA</span>
+                            </button>
+                            <!-- Secondary Link -->
+                            <a class="text-[#101718] dark:text-white font-bold text-sm hover:underline underline-offset-4 decoration-2 decoration-[#00b4d8]"
+                                href="#">
+                                Lihat Lokasi Bengkel
+                            </a>
+                        </div>
+                        <!-- Trust Indicators -->
+                        <div
+                            class="pt-4 flex items-center justify-center lg:justify-start gap-6 text-[#101718]/60 dark:text-gray-400">
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xl">build_circle</span>
+                                <span class="text-sm font-semibold">Teknisi Ahli</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span class="material-symbols-outlined text-xl">bolt</span>
+                                <span class="text-sm font-semibold">Sparepart Ori</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Hero Image -->
+                    <div class="flex-1 w-full max-w-[600px] lg:max-w-none relative">
+                        <!-- Abstract background blob for depth -->
+                        <div
+                            class="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-gradient-to-tr from-[#00b4d8]/20 to-[#ef233c]/10 rounded-full blur-3xl opacity-60">
+                        </div>
+                        <div
+                            class="relative overflow-hidden rounded-2xl shadow-2xl bg-white dark:bg-gray-800 aspect-[4/3] group">
+                            <!-- Image Overlay Gradient for text readability if needed, kept subtle here -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>
+                            <div class="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                data-alt="Modern electric bike parked in a clean minimalist urban setting"
+                                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBQtu6yNvHgqaAzXYQHo5H31AguGfJOkafZn9LK-WFH6w6lbAIlqB0kgh5jind3wi5CjjHzVl1f_tX5WhY7wzWg_IJvN8GOKwEeOKW96oZGnXcv5ZUViB26ftEk4Ufn-wiRU1T_mjjBLs9Umc-Xg-vX5AH17GtqFz5JrVRbrTvyqnZL5YLoj4TMjFCE4pP_j3vb4ccAcFHO_YKDd_yxzN670kaqlQdI1uC1CuGduHhJmePYNPjXtPvbfIsONkMnzYQfXPlimS0YmOU');">
+                            </div>
+                            <!-- Floating Card Example -->
+                            <div
+                                class="absolute bottom-6 left-6 z-20 bg-white/90 dark:bg-[#1a2c30]/90 backdrop-blur-sm p-4 rounded-xl shadow-lg border border-white/20 hidden sm:flex items-center gap-3 animate-in fade-in slide-in-from-bottom-4 duration-1000">
+                                <div
+                                    class="bg-green-100 dark:bg-green-900/30 p-2 rounded-full text-green-600 dark:text-green-400">
+                                    <span class="material-symbols-outlined">check_circle</span>
+                                </div>
+                                <div>
+                                    <p class="text-xs text-gray-500 dark:text-gray-400 font-semibold uppercase">Status
+                                        Servis</p>
+                                    <p class="text-sm font-bold text-[#101718] dark:text-white">Siap dalam 24 Jam</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
+
+<!-- Layanan Kami: Servis Profesional -->
+<!DOCTYPE html>
+
+<html class="light" lang="id">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>BKTeBike - Servis Sepeda Listrik Profesional</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00b2d6",
+                        "accent": "#ef233c",
+                        "background-light": "#f5f8f8",
+                        "background-dark": "#0f2023",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#101718] dark:text-white transition-colors duration-200">
+    <div class="flex flex-col min-h-screen">
+        <!-- Header / Navigation -->
+        <header
+            class="sticky top-0 z-50 w-full bg-white/90 dark:bg-[#0f2023]/90 backdrop-blur-md border-b border-[#dae4e7] dark:border-gray-800">
+            <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex h-16 items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <div class="p-1 bg-primary rounded text-white">
+                            <span class="material-symbols-outlined">electric_bike</span>
+                        </div>
+                        <h1 class="text-xl font-bold tracking-tight text-[#101718] dark:text-white">BKTeBike</h1>
+                    </div>
+                    <nav class="hidden md:flex items-center gap-8">
+                        <a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300"
+                            href="#">Beranda</a>
+                        <a class="text-sm font-medium text-primary dark:text-primary transition-colors"
+                            href="#">Layanan</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300"
+                            href="#">Tentang Kami</a>
+                        <a class="text-sm font-medium hover:text-primary transition-colors dark:text-gray-300"
+                            href="#">Kontak</a>
+                    </nav>
+                    <div class="flex items-center">
+                        <button
+                            class="bg-accent hover:bg-red-600 text-white text-sm font-bold py-2 px-5 rounded-lg transition-colors duration-200 shadow-md hover:shadow-lg flex items-center gap-2">
+                            <span class="material-symbols-outlined text-[18px]">calendar_month</span>
+                            <span>Booking Servis</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Hero Section (Added for context) -->
+        <section class="relative overflow-hidden pt-12 pb-16 lg:pt-24 lg:pb-24">
+            <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="flex flex-col lg:flex-row items-center gap-12">
+                    <div class="flex-1 text-center lg:text-left">
+                        <span
+                            class="inline-block py-1 px-3 rounded-full bg-primary/10 text-primary text-sm font-bold mb-6 border border-primary/20">
+                            Spesialis Sepeda Listrik #1
+                        </span>
+                        <h2
+                            class="text-4xl lg:text-6xl font-extrabold tracking-tight text-[#101718] dark:text-white mb-6 leading-[1.1]">
+                            Solusi Perawatan <br class="hidden lg:block" />
+                            <span class="text-primary">E-Bike Profesional</span>
+                        </h2>
+                        <p class="text-lg text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto lg:mx-0">
+                            Kami mengembalikan performa terbaik sepeda listrik Anda dengan teknisi bersertifikasi dan
+                            peralatan diagnosa modern.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                            <button
+                                class="h-12 px-8 rounded-lg bg-primary hover:bg-[#00a0c0] text-white font-bold transition-all shadow-lg hover:shadow-primary/30 flex items-center justify-center gap-2">
+                                <span class="material-symbols-outlined">chat</span>
+                                Konsultasi Gratis
+                            </button>
+                            <button
+                                class="h-12 px-8 rounded-lg border border-[#dae4e7] dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-800 text-[#101718] dark:text-white font-medium transition-all flex items-center justify-center">
+                                Lihat Lokasi
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flex-1 w-full max-w-[600px] lg:max-w-none">
+                        <div class="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-2xl group">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
+                            <img alt="Modern bicycle repair workshop interior with tools"
+                                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                                data-alt="Modern bicycle repair workshop interior with tools"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJmeLFFakgorywAkyjdOzzwHq-jATueuwB7FgrQy0Xs3lUvx-VhQysVPgQO5cEu21AHAa0akkBqDwdc_rYvtjf-ffHOE3qXfKlx5YAcZhAVeio2ZgBRtQaF7wnrVRugN9myL9xEcrTntqb3QxJqd0dmW_3ocZpRItSC--HiiKMjhN3TAWf0gnF0q6YuIrrgdsDm2SBoAlm-vO_l0vDfnSmWJN9uPOJ3lMI0y7iAJyTC7Tmh_SREKusiCXh6JkVO5_Ld3mOgTN-sE0" />
+                            <div class="absolute bottom-6 left-6 z-20">
+                                <p class="text-white font-bold text-lg">Workshop Modern</p>
+                                <p class="text-white/80 text-sm">Peralatan Lengkap &amp; Teknisi Ahli</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services Section -->
+        <section class="py-16 bg-white dark:bg-[#0f2023] relative">
+            <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                    <div class="max-w-2xl">
+                        <h2 class="text-primary font-bold text-lg mb-2 uppercase tracking-wider">Layanan Kami</h2>
+                        <h3 class="text-3xl md:text-4xl font-extrabold text-[#101718] dark:text-white">
+                            Servis Profesional &amp; Terpercaya
+                        </h3>
+                        <p class="mt-4 text-slate-600 dark:text-slate-400 text-lg">
+                            Daftar layanan lengkap untuk segala jenis kerusakan sepeda listrik Anda. Transparan, cepat,
+                            dan bergaransi.
+                        </p>
+                    </div>
+                    <a class="hidden md:flex items-center text-primary font-bold hover:text-accent transition-colors gap-1 group"
+                        href="#">
+                        Lihat Selengkapnya
+                        <span
+                            class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+                    </a>
+                </div>
+                <!-- Grid Layout: 4 Columns on Desktop as requested -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Card 1 -->
+                    <div
+                        class="group p-6 rounded-xl border border-[#dae4e7] dark:border-gray-800 bg-background-light dark:bg-[#13282c] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white dark:bg-white/5 border border-[#dae4e7] dark:border-gray-700 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:border-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl transition-colors">battery_charging_full</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-[#101718] dark:text-white mb-2">Perbaikan Baterai</h4>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            Diagnosa kesehatan baterai, penggantian sel drop, balancing BMS, dan perakitan pack baru.
+                        </p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div
+                        class="group p-6 rounded-xl border border-[#dae4e7] dark:border-gray-800 bg-background-light dark:bg-[#13282c] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white dark:bg-white/5 border border-[#dae4e7] dark:border-gray-700 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:border-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl transition-colors">cyclone</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-[#101718] dark:text-white mb-2">Servis Dinamo</h4>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            Pembersihan kumparan, penggantian bearing/hall sensor, dan perbaikan suara kasar pada motor.
+                        </p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div
+                        class="group p-6 rounded-xl border border-[#dae4e7] dark:border-gray-800 bg-background-light dark:bg-[#13282c] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white dark:bg-white/5 border border-[#dae4e7] dark:border-gray-700 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:border-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl transition-colors">memory</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-[#101718] dark:text-white mb-2">Perbaikan Controller</h4>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            Servis modul controller mati total, error code, mosfet terbakar, dan instalasi controller
+                            universal.
+                        </p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div
+                        class="group p-6 rounded-xl border border-[#dae4e7] dark:border-gray-800 bg-background-light dark:bg-[#13282c] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white dark:bg-white/5 border border-[#dae4e7] dark:border-gray-700 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:border-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl transition-colors">electrical_services</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-[#101718] dark:text-white mb-2">Kelistrikan &amp; Kabel</h4>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            Urut kabel body, perbaikan soket kendor, lampu mati, klakson, dan indikator speedometer.
+                        </p>
+                    </div>
+                    <!-- Card 5 -->
+                    <div
+                        class="group p-6 rounded-xl border border-[#dae4e7] dark:border-gray-800 bg-background-light dark:bg-[#13282c] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white dark:bg-white/5 border border-[#dae4e7] dark:border-gray-700 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:border-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl transition-colors">tire_repair</span>
+                        </div>
+                        <h4 class="text-xl font-bold text-[#101718] dark:text-white mb-2">Ganti Ban</h4>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            Sedia ban tubeless dan ban dalam berbagai ukuran ring (14, 16, 10 inch) khusus sepeda
+                            listrik.
+                        </p>
+                    </div>
+                    <!-- Card 6 -->
+                    <div
+                        class="group p-6 rounded-xl border border-[#dae4e7] dark:border-gray-800 bg-background-light dark:bg-[#13282c] hover:border-primary/50 hover:shadow-lg hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300">
+                        <div
+                            class="w-12 h-12 rounded-lg bg-white dark:bg-white/5 border border-[#dae4e7] dark:border-gray-700 flex items-center justify-center mb-4 group-hover:bg-primary group-hover:border-primary transition-colors">
+                            <span
+                                class="material-symbols-outlined text-primary group-hover:text-white text-3xl transition-colors">construction</span>
+                        </div>
+                        <div class="flex items-center gap-2 mb-2">
+                            <h4 class="text-xl font-bold text-[#101718] dark:text-white">Tune Up Total</h4>
+                            <span
+                                class="px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide bg-accent text-white rounded-full">Hot</span>
+                        </div>
+                        <p class="text-sm text-slate-500 dark:text-slate-400 leading-relaxed">
+                            Pengecekan menyeluruh, kencangkan baut, pelumasan rantai/gear, dan cuci detail unit.
+                        </p>
+                    </div>
+                    <!-- Optional: CTA Card or Empty slots filler if needed, but grid flows naturally. The design request is minimal, so leaving it clean is better. -->
+                </div>
+                <div class="mt-12 flex justify-center md:hidden">
+                    <button
+                        class="w-full h-12 rounded-lg border border-primary text-primary font-bold hover:bg-primary hover:text-white transition-colors">
+                        Lihat Semua Layanan
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- CTA Section (Pre-footer) -->
+        <section class="py-16 bg-[#f0f9fb] dark:bg-[#13282c] border-t border-[#dae4e7] dark:border-gray-800">
+            <div class="max-w-[960px] mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-[#101718] dark:text-white mb-4">Sepeda Listrik Anda Bermasalah?</h2>
+                <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-lg mx-auto">
+                    Jangan biarkan kerusakan kecil menjadi besar. Konsultasikan dengan tim ahli kami sekarang juga
+                    melalui WhatsApp.
+                </p>
+                <button
+                    class="inline-flex items-center justify-center h-12 px-8 rounded-lg bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold transition-all shadow-lg hover:shadow-xl gap-2">
+                    <span class="material-symbols-outlined">chat</span>
+                    Chat WhatsApp
+                </button>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="bg-white dark:bg-[#0f2023] border-t border-[#dae4e7] dark:border-gray-800 pt-16 pb-8">
+            <div class="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                    <div class="col-span-1 md:col-span-1">
+                        <div class="flex items-center gap-2 mb-6">
+                            <span class="material-symbols-outlined text-primary text-3xl">electric_bike</span>
+                            <span class="text-xl font-bold text-[#101718] dark:text-white">BKTeBike</span>
+                        </div>
+                        <p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed mb-6">
+                            Bengkel spesialis sepeda listrik terpercaya dengan teknisi berpengalaman dan sparepart
+                            lengkap.
+                        </p>
+                        <div class="flex gap-4">
+                            <a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors"
+                                href="#">
+                                <span class="material-symbols-outlined text-xl">thumb_up</span>
+                            </a> <!-- Pseudo Facebook Icon -->
+                            <a class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors"
+                                href="#">
+                                <span class="material-symbols-outlined text-xl">photo_camera</span>
+                            </a> <!-- Pseudo Instagram Icon -->
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#101718] dark:text-white mb-6">Layanan</h4>
+                        <ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+                            <li><a class="hover:text-primary transition-colors" href="#">Perbaikan Baterai</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="#">Servis Dinamo</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="#">Ganti Ban</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="#">Tune Up</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#101718] dark:text-white mb-6">Perusahaan</h4>
+                        <ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+                            <li><a class="hover:text-primary transition-colors" href="#">Tentang Kami</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="#">Karir</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="#">Lokasi Bengkel</a></li>
+                            <li><a class="hover:text-primary transition-colors" href="#">Kontak</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-[#101718] dark:text-white mb-6">Jam Operasional</h4>
+                        <ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+                            <li class="flex justify-between">
+                                <span>Senin - Jumat</span>
+                                <span class="font-medium text-[#101718] dark:text-slate-200">08:00 - 17:00</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Sabtu</span>
+                                <span class="font-medium text-[#101718] dark:text-slate-200">09:00 - 15:00</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>Minggu</span>
+                                <span class="text-accent font-medium">Tutup</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="border-t border-[#dae4e7] dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                    <p class="text-sm text-slate-500 dark:text-slate-400 text-center md:text-left">
+                        © 2024 BKTeBike. All rights reserved.
+                    </p>
+                    <div class="flex gap-6 text-sm text-slate-500 dark:text-slate-400">
+                        <a class="hover:text-primary" href="#">Privasi</a>
+                        <a class="hover:text-primary" href="#">Syarat &amp; Ketentuan</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
+
+<!-- Tips Perawatan E-Bike -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Tips Perawatan E-Bike</title>
+    <!-- Fonts and Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Tailwind Config -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00b2d6",
+                        "accent": "#ef233c",
+                        "background-light": "#f5f8f8",
+                        "background-dark": "#0f2023",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen flex flex-col items-center">
+    <!-- Section: Tips Perawatan E-Bike -->
+    <section class="w-full px-4 py-16 md:px-10 lg:px-20 lg:py-24">
+        <div class="max-w-7xl mx-auto flex flex-col">
+            <!-- Section Header -->
+            <div class="flex flex-col items-center justify-center text-center mb-12 lg:mb-16">
+                <span class="text-accent font-bold tracking-wider text-sm uppercase mb-2">Blog &amp; Tips</span>
+                <h2
+                    class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 dark:text-white leading-tight tracking-tight">
+                    Tips Perawatan E-Bike
+                </h2>
+                <div class="h-1 w-20 bg-primary mt-6 rounded-full"></div>
+            </div>
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <article
+                    class="group relative flex flex-col bg-white dark:bg-[#1a2c30] rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden border border-slate-100 dark:border-slate-800">
+                    <!-- Image Container -->
+                    <div class="aspect-[16/9] w-full overflow-hidden bg-slate-200 relative">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                            data-alt="Close up of an electric bike battery charging port"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAoxu9um-YKlSUzrcL0ACPNa8V6GiJm_FcCg971pmIjkFzrVy9vp3SK-NYXdDn4XuTNbxqPsnVY98a4mLSnTjfTUAKAxAal6CKlPyyowquN7PSkh8Hr8LSsr-0wlLtpuPRmTP6KrRei-sbFVlgTU6ysuPXejj321rowA3LKMdfigBrtuCYQeznuaVBuqmHjoCKHNCbT9T-rspM-HJU0x9fwoBzHBX8etJAYX9l6A0rWiXs8cV3T2KgKmnlc8AOMOHv5WQXQ8NA_oxU");'>
+                        </div>
+                        <div
+                            class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                            Baterai
+                        </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="flex flex-col flex-grow p-6 md:p-8">
+                        <h3
+                            class="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors duration-200">
+                            Cara Merawat Baterai Agar Awet
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed mb-6 line-clamp-3">
+                            Tips sederhana untuk memperpanjang umur baterai sepeda listrik Anda dan menjaga performa
+                            maksimal dalam jangka panjang.
+                        </p>
+                        <!-- Action Link -->
+                        <div class="mt-auto">
+                            <a class="inline-flex items-center text-primary font-bold text-sm hover:text-accent transition-colors duration-200"
+                                href="#">
+                                <span>Baca Selengkapnya</span>
+                                <span
+                                    class="material-symbols-outlined ml-1 text-lg group-hover:translate-x-1 transition-transform duration-200">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Card 2 -->
+                <article
+                    class="group relative flex flex-col bg-white dark:bg-[#1a2c30] rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden border border-slate-100 dark:border-slate-800">
+                    <!-- Image Container -->
+                    <div class="aspect-[16/9] w-full overflow-hidden bg-slate-200 relative">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                            data-alt="Person checking tire pressure on a bicycle wheel"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBe_CGN9UBcdbCXDJl86jc4qNdw1mfu0Ylcae6lo23gi2dwRZAaYpx8SZ1zrXBh_3lBR4OYW9_M_K32smLB0-NJZyhODPBJeuAGCEgzSgERSAvywc7byL3C6QZCjrz17-ur_gT1P-wIhd6zKz0ZQJ-FWaXyybsMGt-ZVCyQztOCFb6782Q0FN_qYfjCz074fOYublBbYwgJtiWnM--jQwn4iLlqkY7YZ-JzoPiVbrNImhax1uJKbhO530BCmOjOL0iEIZO1pSzdVpI");'>
+                        </div>
+                        <div
+                            class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                            Keamanan
+                        </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="flex flex-col flex-grow p-6 md:p-8">
+                        <h3
+                            class="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors duration-200">
+                            Tekanan Ban yang Ideal
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed mb-6 line-clamp-3">
+                            Menjaga tekanan ban sangat penting untuk kenyamanan, keamanan, dan efisiensi baterai saat
+                            berkendara di berbagai medan.
+                        </p>
+                        <!-- Action Link -->
+                        <div class="mt-auto">
+                            <a class="inline-flex items-center text-primary font-bold text-sm hover:text-accent transition-colors duration-200"
+                                href="#">
+                                <span>Baca Selengkapnya</span>
+                                <span
+                                    class="material-symbols-outlined ml-1 text-lg group-hover:translate-x-1 transition-transform duration-200">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <!-- Card 3 -->
+                <article
+                    class="group relative flex flex-col bg-white dark:bg-[#1a2c30] rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden border border-slate-100 dark:border-slate-800">
+                    <!-- Image Container -->
+                    <div class="aspect-[16/9] w-full overflow-hidden bg-slate-200 relative">
+                        <div class="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
+                            data-alt="Mechanic working on repairing a bicycle chain system"
+                            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDM4bktX_1NJxRQZJby92BBYu-mihg00gykRy2LxCS6c_EuO9aWaHQvdEJrknzEojtFLMrXS6WzXkUvVo4_WCADvvFYaweNakDhLXc4oXWHscEDwVGALgWGcyi9qcTrqSKMXs4HjHd8g-fS2T1bM55UJLVyhty0HpgrmYp7a8p2fHFFola240twvQhRi7oytvSp3t7AlRwfWP1cf5DGUWT0XIQifYHSeJCgIOHG-SXsu7WGneYRCWi-eGOQVyfWqupe1Z6M5-MHRIA");'>
+                        </div>
+                        <div
+                            class="absolute top-4 left-4 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
+                            Penting
+                        </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="flex flex-col flex-grow p-6 md:p-8">
+                        <h3
+                            class="text-xl font-bold text-slate-900 dark:text-white mb-3 group-hover:text-primary transition-colors duration-200">
+                            Kapan Harus Servis Rutin?
+                        </h3>
+                        <p class="text-slate-600 dark:text-slate-300 text-base leading-relaxed mb-6 line-clamp-3">
+                            Kenali tanda-tanda sepeda listrik Anda membutuhkan servis profesional segera sebelum
+                            kerusakan parah terjadi.
+                        </p>
+                        <!-- Action Link -->
+                        <div class="mt-auto">
+                            <a class="inline-flex items-center text-primary font-bold text-sm hover:text-accent transition-colors duration-200"
+                                href="#">
+                                <span>Baca Selengkapnya</span>
+                                <span
+                                    class="material-symbols-outlined ml-1 text-lg group-hover:translate-x-1 transition-transform duration-200">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <!-- Bottom Action -->
+            <div class="mt-16 flex justify-center">
+                <button
+                    class="flex items-center justify-center gap-2 px-8 py-3 rounded-lg border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all duration-300">
+                    <span>Lihat Semua Artikel</span>
+                    <span class="material-symbols-outlined text-sm">grid_view</span>
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
+<!-- Kontak Kami: Jadwalkan Servis -->
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kontak Kami - BKTeBike</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Material Symbols -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Theme Config -->
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#00b2d6", // Base theme blue
+                        "brand-red": "#ef233c", // Requested red for CTA
+                        "background-light": "#f8f9fa", // Requested light grey
+                        "background-dark": "#0f2023",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                },
+            },
+        }
+    </script>
+</head>
+
+<body
+    class="font-display bg-background-light dark:bg-background-dark text-[#101718] dark:text-white transition-colors duration-200">
+    <div class="relative flex min-h-screen w-full flex-col overflow-hidden">
+        <!-- Main Contact Section -->
+        <main class="flex-grow flex items-center justify-center py-12 md:py-24 px-4 md:px-10 lg:px-20">
+            <div class="w-full max-w-7xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-stretch">
+                    <!-- Left Column: Info & CTA -->
+                    <div class="flex flex-col justify-center gap-8 order-2 lg:order-1">
+                        <!-- Header / Brand -->
+                        <div class="flex flex-col gap-3">
+                            <h1
+                                class="text-4xl md:text-5xl font-extrabold tracking-tight text-[#101718] dark:text-white">
+                                BKTeBike
+                            </h1>
+                            <h2 class="text-xl md:text-2xl font-bold text-[#5e858d] dark:text-gray-400">
+                                Kunjungi Bengkel Kami
+                            </h2>
+                            <p class="text-base text-[#5e858d] dark:text-gray-400 max-w-md">
+                                Spesialis servis sepeda listrik terpercaya. Kami siap membantu mengembalikan performa
+                                terbaik sepeda Anda.
+                            </p>
+                        </div>
+                        <!-- Contact Details List -->
+                        <div class="flex flex-col gap-6 py-4">
+                            <!-- Address Item -->
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary">
+                                    <span class="material-symbols-outlined text-[24px]">location_on</span>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span
+                                        class="text-sm font-semibold text-[#5e858d] dark:text-gray-400 uppercase tracking-wide">Alamat</span>
+                                    <p class="text-lg font-medium leading-snug">
+                                        Jl. Contoh Sepeda No. 123,<br />
+                                        Jakarta Selatan, Indonesia
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- Phone Item -->
+                            <div class="flex items-start gap-4">
+                                <div
+                                    class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary">
+                                    <span class="material-symbols-outlined text-[24px]">chat</span>
+                                </div>
+                                <div class="flex flex-col">
+                                    <span
+                                        class="text-sm font-semibold text-[#5e858d] dark:text-gray-400 uppercase tracking-wide">WhatsApp</span>
+                                    <a class="text-lg font-medium leading-snug hover:text-primary transition-colors"
+                                        href="https://wa.me/6281234567890">
+                                        +62 812-3456-7890
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- CTA Button -->
+                        <div class="pt-2">
+                            <button
+                                class="flex w-full md:w-auto min-w-[200px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-8 bg-brand-red hover:bg-red-600 text-white text-lg font-bold leading-normal tracking-[0.015em] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
+                                <span class="mr-2 material-symbols-outlined text-[20px]">calendar_month</span>
+                                <span class="truncate">Jadwalkan Servis Sekarang</span>
+                            </button>
+                        </div>
+                        <!-- Social & Copyright (Mini Footer) -->
+                        <div
+                            class="mt-8 pt-8 border-t border-gray-200 dark:border-gray-800 flex flex-col md:flex-row gap-6 items-start md:items-center justify-between text-sm text-[#5e858d]">
+                            <p>© 2024 BKTeBike. All rights reserved.</p>
+                            <div class="flex gap-4">
+                                <a aria-label="Instagram" class="hover:text-primary transition-colors" href="#">
+                                    <span class="material-symbols-outlined">photo_camera</span>
+                                </a>
+                                <a aria-label="Facebook" class="hover:text-primary transition-colors" href="#">
+                                    <span class="material-symbols-outlined">public</span>
+                                </a>
+                                <a aria-label="WhatsApp" class="hover:text-primary transition-colors" href="#">
+                                    <span class="material-symbols-outlined">perm_phone_msg</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Column: Map -->
+                    <div class="flex flex-col h-full min-h-[400px] lg:min-h-auto order-1 lg:order-2">
+                        <div class="relative w-full h-full rounded-2xl overflow-hidden shadow-md group">
+                            <!-- Map Image Placeholder -->
+                            <div class="w-full h-full bg-center bg-cover bg-no-repeat absolute inset-0 transition-transform duration-700 group-hover:scale-105"
+                                data-alt="Map view of city streets highlighting the location of the bike shop"
+                                data-location="Jakarta Selatan"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQIHYItkhe-5ZM1i9ui5vn-AP7ObE0qzk3JLFkOtXLfkJIy-YlQuMTzz2GRJu2ifY3CVWusqRyrOhDLzfGPsMYi2FILtSBboTqVI7z6k_0Cqi6T1B8EtsRlv-O_ETOorjQUbtKVxNGTwnu_wWlDVDQ5GUQngisNfcojx2c2tNSt4nycdZu7cjGNfWFLglMvs0IJie9wdd4ifEaiVhspDdsCTxJqww6ZmbNiev4bX3tmbUBB95l8IvXV1j-SD0R5g0JcNQEHSolJl0");'>
+                            </div>
+                            <!-- Overlay Card simulating Map UI -->
+                            <div
+                                class="absolute bottom-6 left-6 right-6 bg-white dark:bg-[#1a2c30] p-4 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700 flex items-center justify-between">
+                                <div>
+                                    <p class="text-xs font-bold text-primary uppercase mb-1">Lokasi Kami</p>
+                                    <p class="font-bold text-[#101718] dark:text-white">BKTeBike Headquarters</p>
+                                    <p class="text-sm text-gray-500">Jakarta Selatan</p>
+                                </div>
+                                <div class="bg-primary/10 p-2 rounded-full text-primary">
+                                    <span class="material-symbols-outlined">near_me</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
