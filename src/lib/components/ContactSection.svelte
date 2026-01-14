@@ -13,7 +13,7 @@
                     <h1
                         class="text-4xl md:text-5xl font-extrabold tracking-tight text-[#101718] dark:text-white"
                     >
-                        BKTeBike
+                        Virel Ebike
                     </h1>
                     <h2
                         class="text-xl md:text-2xl font-bold text-[#5e858d] dark:text-gray-400"
@@ -91,7 +91,7 @@
                 class="relative w-full h-[400px] lg:h-auto min-h-[400px] rounded-2xl overflow-hidden shadow-lg order-1 lg:order-2"
             >
                 <iframe
-                    title="Lokasi Bengkel BKTeBike"
+                    title="Lokasi Bengkel Virel Ebike"
                     width="100%"
                     height="100%"
                     frameborder="0"

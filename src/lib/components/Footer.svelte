@@ -11,7 +11,7 @@
                     >
                     <span
                         class="text-xl font-bold text-[#101718] dark:text-white"
-                        >BKTeBike</span
+                        >Virel Ebike</span
                     >
                 </div>
                 <p
@@ -127,9 +127,8 @@
             <p
                 class="text-sm text-slate-500 dark:text-slate-400 text-center md:text-left"
             >
-                © 2026 BKTeBike. All rights reserved.
+                © 2026 Virel Ebike. All rights reserved.
             </p>
-
         </div>
     </div>
 </footer>

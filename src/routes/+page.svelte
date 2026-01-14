@@ -9,7 +9,7 @@
 
 <svelte:head>
     <title
-        >BKTeBike - Servis Sepeda Listrik Jakarta Timur | Bengkel E-Bike
+        >Virel Ebike - Servis Sepeda Listrik Jakarta Timur | Bengkel E-Bike
         Terpercaya</title
     >
     <meta
@@ -20,44 +20,50 @@
         name="keywords"
         content="servis sepeda listrik, bengkel sepeda listrik, ganti baterai sepeda listrik, perbaikan dinamo e-bike, servis e-bike Jakarta, bengkel e-bike Jakarta Timur, sparepart sepeda listrik"
     />
-    <meta name="author" content="BKTeBike" />
-    <link rel="canonical" href="https://bktebike.com/" />
+    <meta name="author" content="Virel Ebike" />
+    <link rel="canonical" href="https://virelebike.com/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://bktebike.com/" />
+    <meta property="og:url" content="https://virelebike.com/" />
     <meta
         property="og:title"
-        content="BKTeBike - Servis Sepeda Listrik Jakarta Timur | Bengkel E-Bike Terpercaya"
+        content="Virel Ebike - Servis Sepeda Listrik Jakarta Timur | Bengkel E-Bike Terpercaya"
     />
     <meta
         property="og:description"
         content="Bengkel servis sepeda listrik terpercaya di Jakarta Timur. Spesialis perbaikan baterai, dinamo, controller e-bike."
     />
-    <meta property="og:image" content="https://bktebike.com/hero-ebike.webp" />
+    <meta
+        property="og:image"
+        content="https://virelebike.com/hero-ebike.webp"
+    />
     <meta property="og:locale" content="id_ID" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="https://bktebike.com/" />
+    <meta name="twitter:url" content="https://virelebike.com/" />
     <meta
         name="twitter:title"
-        content="BKTeBike - Servis Sepeda Listrik Jakarta Timur"
+        content="Virel Ebike - Servis Sepeda Listrik Jakarta Timur"
     />
     <meta
         name="twitter:description"
         content="Bengkel servis sepeda listrik terpercaya. Spesialis baterai, dinamo, controller."
     />
-    <meta name="twitter:image" content="https://bktebike.com/hero-ebike.webp" />
+    <meta
+        name="twitter:image"
+        content="https://virelebike.com/hero-ebike.webp"
+    />
 
     <!-- JSON-LD Structured Data -->
     {@html `<script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "BKTeBike",
+        "name": "Virel Ebike",
         "description": "Bengkel servis sepeda listrik terpercaya di Jakarta Timur. Spesialis perbaikan baterai, dinamo, dan controller e-bike.",
-        "url": "https://bktebike.com",
+        "url": "https://virelebike.com",
         "telephone": "+6285947364465",
         "address": {
             "@type": "PostalAddress",
@@ -81,7 +87,7 @@
             }
         ],
         "priceRange": "$$",
-        "image": "https://bktebike.com/hero-ebike.webp",
+        "image": "https://virelebike.com/hero-ebike.webp",
         "areaServed": {
             "@type": "City",
             "name": "Jakarta"

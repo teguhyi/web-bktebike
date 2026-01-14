@@ -22,7 +22,7 @@
       <h2
         class="text-[#101718] dark:text-white text-xl font-extrabold tracking-tight"
       >
-        BKTeBike
+        Virel Ebike
       </h2>
     </div>
 

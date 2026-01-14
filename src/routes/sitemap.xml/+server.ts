@@ -1,7 +1,7 @@
 import { locations } from '$lib/data/locations';
 
 export async function GET() {
-    const site = 'https://bktebike.com';
+    const site = 'https://virelebike.com';
 
     const pages = [
         '/',

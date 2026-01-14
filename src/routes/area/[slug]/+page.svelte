@@ -36,7 +36,7 @@
                 >
                 <span
                     class="font-extrabold text-[#101718] dark:text-white text-lg"
-                    >BKTeBike</span
+                    >Virel Ebike</span
                 >
             </a>
             <a
@@ -74,7 +74,7 @@
             >
                 Kabar gembira untuk warga <strong>{location.name}</strong>! Kini
                 Anda tidak perlu repot membawa sepeda listrik rusak ke bengkel
-                yang jauh. Teknisi profesional BKTeBike siap datang atau
+                yang jauh. Teknisi profesional Virel Ebike siap datang atau
                 melayani perbaikan sepeda listrik kesayangan Anda dengan cepat,
                 aman, dan memuaskan.
             </p>
@@ -189,6 +189,6 @@
     <footer
         class="py-8 text-center text-sm text-slate-500 dark:text-slate-400 border-t border-gray-200 dark:border-gray-800"
     >
-        <p>&copy; 2026 BKTeBike. Solusi E-Bike Terbaik.</p>
+        <p>&copy; 2026 Virel Ebike. Solusi E-Bike Terbaik.</p>
     </footer>
 </div>

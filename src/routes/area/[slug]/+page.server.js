@@ -9,7 +9,7 @@ export function load({ params }) {
         throw error(404, 'Lokasi tidak ditemukan');
     }
 
-    const title = `Servis Sepeda Listrik di ${location.name} | BKTeBike`;
+    const title = `Servis Sepeda Listrik di ${location.name} | Virel Ebike`;
     const description = `Jasa servis sepeda listrik panggilan di ${location.name}. Teknisi ahli ganti baterai, dinamo & controller. Cepat & Terpercaya.`;
 
     return {
