@@ -5,23 +5,24 @@ export async function GET() {
 
     const pages = [
         '/',
-        '/layanan',
         // Add other static pages here if needed
     ];
 
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    ${pages
+        ${pages
             .map(
                 (page) => `
     <url>
         <loc>${site}${page}</loc>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
+        <lastmod>${new Date().toISOString()}</lastmod>
     </url>
     `
             )
-            .join('')}
+            .join('')
+        }
     ${locations
             .map(
                 (loc) => `
@@ -29,11 +30,13 @@ export async function GET() {
         <loc>${site}/area/${loc.slug}</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
+        <lastmod>${new Date().toISOString()}</lastmod>
     </url>
     `
             )
-            .join('')}
-</urlset>`;
+            .join('')
+        }
+    </urlset>`;
 
     return new Response(xml, {
         headers: {
