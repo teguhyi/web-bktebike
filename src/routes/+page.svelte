@@ -86,7 +86,42 @@
             "@type": "City",
             "name": "Jakarta"
         },
-        "serviceType": ["Servis Sepeda Listrik", "Perbaikan Baterai E-Bike", "Servis Dinamo", "Ganti Controller", "Sparepart Sepeda Listrik"]
+        "serviceType": ["Servis Sepeda Listrik", "Perbaikan Baterai E-Bike", "Servis Dinamo", "Ganti Controller", "Sparepart Sepeda Listrik"],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Layanan Servis Sepeda Listrik",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Ganti Baterai Sepeda Listrik"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Servis Dinamo E-Bike"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Perbaikan Controller"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Panggilan Teknisi ke Rumah"
+                    }
+                }
+
+            ]
+        }
     }
     </script>`}
 </svelte:head>

@@ -18,6 +18,51 @@
 <svelte:head>
     <title>{title}</title>
     <meta name="description" content={description} />
+    {@html `<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "serviceType": "Servis Sepeda Listrik",
+        "provider": {
+            "@type": "LocalBusiness",
+            "name": "Virel Ebike",
+            "telephone": "+6285947364465",
+            "image": "https://bktebike.com/hero-ebike.webp",
+             "priceRange": "$$"
+        },
+        "areaServed": {
+            "@type": "City",
+            "name": "${location.name}"
+        },
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Layanan Servis Sepeda Listrik di ${location.name}",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Ganti Baterai Sepeda Listrik"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Servis Dinamo E-Bike"
+                    }
+                },
+                 {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Panggilan Teknisi ke ${location.name}"
+                    }
+                }
+            ]
+        }
+    }
+    </script>`}
 </svelte:head>
 
 <div

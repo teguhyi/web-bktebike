@@ -22,7 +22,7 @@
                     <h1
                         class="text-[#00b4d8] text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight"
                     >
-                        Solusi Terbaik untuk Sepeda Listrik Anda
+                        Servis Sepeda Listrik & Bengkel E-Bike Terpercaya
                     </h1>
                     <p
                         class="text-[#101718]/70 dark:text-gray-300 text-lg lg:text-xl font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0"
